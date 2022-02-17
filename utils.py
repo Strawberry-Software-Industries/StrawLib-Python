@@ -19,7 +19,7 @@ class file:
     
     def delete(file=""):
         os.remove(file)
-        
+
 
     def create(file=""):
         open(file, "x")
